@@ -1,0 +1,19 @@
+control.C: The main file that contains the genetic algorithm driver for optimizing the stochastic DBS current  
+
+control.h: Parameters used in control.C 
+
+integrator.C: The ODE integrator that calculates the temporal behavior of the DBS-Parkinsonian neuron model  
+
+integrator.h: Parameters used in integrator.C  
+
+four1.c nrutil.c realft.c twofft.c nrutil.h: Fourier transform routine from *Numerical Recipes in C*  
+
+makefile: the makefile  
+
+NOTE:  
+(a) control.C uses a genetic algorithm library, downloadable at [http://lancet.mit.edu/ga/](http://lancet.mit.edu/ga/)  
+(b) integrator.C uses the Gear ODE integrator 'lsoda', downloadable at [http://www.netlib.org/odepack/index.html](http://www.netlib.org/odepack/index.html)
+
+---
+
+2025-05-30: Standardized to Markdown
